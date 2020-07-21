@@ -6,10 +6,10 @@ describe('Checking generated css js files', () => {
         // console.log(glob.sync('../template'));
         console.log(process.cwd());
         const files = glob.sync([
-            path.resolve(process.cwd(), 'test/template/dist/js/index_*.js'),
-            path.resolve(process.cwd(), 'test/template/dist/css/index_*.css'),
-            path.resolve(process.cwd(), 'test/template/dist/js/search_*.js'),
-            path.resolve(process.cwd(), 'test/template/dist/css/search_*.css'),
+            path.resolve(process.cwd(), 'test/smoke/template/dist/js/index_*.js'),
+            path.resolve(process.cwd(), 'test/smoke/template/dist/css/index_*.css'),
+            path.resolve(process.cwd(), 'test/smoke/template/dist/js/search_*.js'),
+            path.resolve(process.cwd(), 'test/smoke/template/dist/css/search_*.css'),
             // '../template/dist/js/index_*.js',
             // '../templatedist/css/index_*.css',
             // '../templatedist/js/search_*.js',
